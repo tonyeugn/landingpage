@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Crimson Pro", serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*/////////////// MENU ///////////////////////*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-bottom: 1px solid #0000002d;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.links a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.links li{
+    font-size: 1.3rem;
+}
+
+
+/*/////////////// FIRST SECTION ///////////////////////*/
+
+.first{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first h1{
+    color: #000;
+    font-size: 5rem;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+}
+
+.first p{
+    color: #000;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+/*/////////////// SECOND SECTIOn ///////////////////////*/
+
+.second{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    background: url(/assets/first.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(0.5);
+    height: 800px;
+    width: 100%;
+    border-radius: 80px;
+    transition: .3s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+}
+
+.background:hover{
+    transform: scale(1.1);
+}
+
+.background h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.background h2{
+    color: #fff;
+    font-size: 80px;
+}
+
+.background p{
+    color: #fff;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 40px;
+}
